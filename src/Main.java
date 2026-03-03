@@ -15,8 +15,8 @@ public class Main {
             System.out.println("-------------------------");
         }
 
-        System.out.println("===== TÌM SẢN PHẨM E01 =====");
-        Product found = repo.findById("E01");
+        System.out.println("===== TÌM SẢN PHẨM 1 =====");
+        Product found = repo.findById("1");
         if (found != null) {
             found.displayInfo();
         } else {
